@@ -1,13 +1,14 @@
 .blue{
     display: flex;
     flex-direction:row;
+    height: 20%;
 }
 
 .blue > div {
     background-color: rgb(38, 143, 141);
-    height: 70px;
     width: 31%;
     margin: 1%;
+    flex: space-between;
 }
 
 #bluelong{
@@ -15,6 +16,7 @@
     height: 35%;
     width: 97%;
     margin: 1%;
+
 }
 
 #green{
@@ -29,13 +31,23 @@
     grid-template-areas: "";
 }
 
+#middle{
+    position: relative;
+}
+
 .triangle-up{
     width:0px;
-    height:0px;
+    height:100%;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 90px solid rgb(121, 181, 33);
-    position:absolute;
-    margin-top:14%;
     z-index:3;
+    position: absolute;
+    bottom:0;
+    right:2%;
+    float: right;
+}
+
+#tricontainer{
+    width: 50%;
 }
