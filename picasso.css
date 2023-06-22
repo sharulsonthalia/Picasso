@@ -1,0 +1,41 @@
+.blue{
+    display: flex;
+    flex-direction:row;
+}
+
+.blue > div {
+    background-color: rgb(38, 143, 141);
+    height: 70px;
+    width: 31%;
+    margin: 1%;
+}
+
+#bluelong{
+    background-color: rgb(38, 143, 141);
+    height: 35%;
+    width: 97%;
+    margin: 1%;
+}
+
+#green{
+    background-color: rgb(182, 220, 129);
+    height: 3%;
+    width: 97%;
+    margin: 1%;
+}
+
+.form{
+    display: grid;
+    grid-template-areas: "";
+}
+
+.triangle-up{
+    width:0px;
+    height:0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 90px solid rgb(121, 181, 33);
+    position:absolute;
+    margin-top:14%;
+    z-index:3;
+}
